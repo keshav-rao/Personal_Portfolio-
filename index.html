@@ -1,0 +1,391 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logoss">Keshav</div>
+            <div class="nav-items">
+                <a href="#home">Home</a>
+                <a href="#recent-work">Work</a>
+                <a href="#skills">Skills</a>
+                <a href="#my-info">My Info</a>
+                <a href="#contact-me">Contact Me</a>
+
+
+                <div class="lamp-container">
+                    <button id="toggleButton" class="lamp-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 130" id="bulb" padding=end>
+                            <title>Light Mode</title>
+                            <g>
+                                <circle class="Bulb_bulb__5owve" cx="30" cy="109.3" r="10.7" fill="yellow"></circle>
+                                <line x1="28.1" y1="108.1" x2="27.4" y2="113.4"
+                                    style="fill: none; stroke: rgb(215, 213, 175); stroke-width: 0.263; stroke-linecap: round; stroke-miterlimit: 10;"></line>
+                                <line x1="32" y1="108.1" x2="32.6" y2="113.4"
+                                    style="fill: none; stroke: rgb(215, 213, 175); stroke-width: 0.263; stroke-linecap: round; stroke-miterlimit: 10;"></line>
+                                <polyline points="27.8,113.5 28.3,112.8 28.8,113.5 29.6,112.8 30,113.5 30.7,112.9 31.2,113.5 31.8,112.8 32.3,113.5"
+                                    style="fill: none; stroke: rgb(215, 213, 175); stroke-width: 0.263; stroke-linecap: round; stroke-miterlimit: 10;"></polyline>
+                            </g>
+                            <rect x="20.7" y="66.7" width="18.6" height="15.6" style="fill: rgb(51, 51, 51);"></rect>
+                            <rect x="28.5" y="0" width="2" height="66.7" style="fill: rgba(51, 51, 51, 0.184);"></rect>
+                            <path d="M30,80.3c-16.6,0-30,13.4-30,30h60C60,93.8,46.6,80.3,30,80.3z" style="fill: rgb(51, 51, 51);"></path>
+                        </svg>
+                    </button>
+                </div>
+            
+            
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <div class="hero-section">
+                <h1 id="typewriter">Innovate, Design, Code - Repeat</h1>
+                <p class="subtitle">I design and code beautiful simple things, I love what i do!</p>
+                
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="Profile1.png" alt="Profile" class="profile-pic">
+                    </div>
+                </div>
+
+                <div class="recent-work">
+                    <span>Recent work</span>
+                    <i class="fas fa-chevron-down bounce"></i>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Add this after your hero section -->
+    <section id = "recent-work" class="recent-work-section">
+        <h2>Recent work</h2>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Image Processing</h3>
+                    <p class="project-description">This project enhances image processing speed using IMPLY-based no-carry approximate adders, optimizing power efficiency and computational performance.</p>
+                    <div class="project-image">
+                        <img src="project1.png" alt="Project 1">
+                    </div>
+                    <div class="arrow-icon">→</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Building a Real Time Dashboard Using React</h3>
+                    <p class="project-description">This project develops a real-time dashboard using React, enabling dynamic data visualization, interactive components, and seamless live updates.</p>
+                    <div class="project-image">
+                        <img src="project2.png" alt="Project 2">
+                    </div>
+                    <div class="arrow-icon">→</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Design and Development of Dipole Nano Chip Antenna Using ANSYS</h3>
+                    <p class="project-description">Nano chip antenna design, simulation, and measurement at 0.6mm using ANSYS.</p>
+                    <div class="project-image">
+                        <img src="project3.png" alt="Project 3">
+                    </div>
+                    <div class="arrow-icon">→</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-box" id="frontend">
+                    <h3>Frontend Technology</h3>
+                    <div class="logo-grid">
+                        <div class="logo">
+                            <img src="angular.png" alt="Angular" title="Angular">
+                        </div>
+                        <div class="logo">
+                            <img src="react.png" alt="React" title="React">
+                        </div>
+                        <div class="logo">
+                            <img src="html.png" alt="HTML5" title="HTML5">
+                        </div>
+                        <div class="logo">
+                            <img src="css.png" alt="CSS3" title="CSS3">
+                        </div>
+                        <div class="logo">
+                            <img src="js.png" alt="JavaScript" title="JavaScript">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-box" id="backend">
+                    <h3>Backend Technology</h3>
+                    <div class="logo-grid">
+                        <div class="logo">
+                            <img src="nodejs.png" alt="Node.js" title="Node.js">
+                        </div>
+                        <div class="logo">
+                            <img src="mongodb.png" alt="MongoDB" title="MongoDB">
+                        </div>
+                        <div class="logo">
+                            <img src="mysql.png" alt="MySQL" title="MySQL">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="my-info">
+            <h2>My Info</h2>
+            <div class="info-container">
+                <div class="info-image-container">
+                    <div class="info-image">
+                        <img src="Pic2.jpg" alt="Keshav S" class="light-mode-img">
+                        <img src="Pic1.jpg" alt="Keshav S" class="dark-mode-img">
+                    </div>
+                    <button class="download-cv" onclick="downloadCV()">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </button>
+                </div>
+                <div class="info-content">
+                    <h3 class="info-name">Keshav S</h3>
+                    <p class="info-description">
+                        I am a young, enthusiastic software developer fresher who is looking for opportunities to apply my skills in full-stack
+                        development, including frontend technologies like HTML, CSS, JavaScript, Angular, and React, as well as backend frameworks like
+                        Node.js. I am passionate about building responsive, scalable applications and leveraging data analysis and machine learning
+                        libraries such as TensorFlow, Pandas, and NumPy to develop innovative solutions. With a strong interest in emerging technologies
+                        like AI, Data Science, and Software Development, I am eager to contribute to real-time projects and grow in a dynamic, tech-driven
+                        environment.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <div class="company-logo">
+                    <img src="huelearn.png" alt="Company 1">
+                </div>
+                <div class="experience-content">
+                    <h3 class="company-name"> RESEACH INTERN | Hue Learn</h3>
+                    <ul class="description-list">
+                        <li>Developed and maintained websites for clients using C#, Blazor, and .NET, ensuring functionality & responsiveness.</li>
+                        <li>Conduct in-depth research on AI, ML, Big Data, and emerging technologies to create well-structured educational materials.</li>
+                        <li>Work closely with subject matter experts and instructional designers to ensure the accuracy, relevance, and quality of course content, while updating materials based on feedback.</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="experience-item">
+                <div class="company-logo">
+                    <img src="iist.png" alt="Company 2">
+                </div>
+                <div class="experience-content">
+                    <h3 class="company-name"> SUMMER INTERN | Indian Institute of Space Science and Technology</h3>
+                    <ul class="description-list">
+                        <li>Contributed to a project on chip antennas in the avionics department, focusing on design and performance analysis.</li>
+                        <li>Worked on enhancing antenna efficiency for aerospace applications, with a chip size of 0.6 nanometer.</li>
+                        <li>Assisted in the research and development process, with the project currently pending patent approval.</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="experience-item">
+                <div class="company-logo">
+                    <img src="handg.png" alt="Company 3">
+                </div>
+                <div class="experience-content">
+                    <h3 class="company-name">DATA SCIENCE INTERN | Handg</h3>
+                    <ul class="description-list">
+                        <li>Assisted in analyzing large datasets and developing predictive models to support business decisions.</li>
+                        <li>Collaborated with cross-functional teams to implement data-driven solutions that enhance operational efficiency.</li>
+                        <li>Contributed to improving business strategies through actionable insights derived from data analysis and model predictions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="company-logo">
+                    <img src="railways.png" alt="Company 4">
+                </div>
+                <div class="experience-content">
+                    <h3 class="company-name">SUMMER INTERN | Southern Indian Railways</h3>
+                    <ul class="description-list">
+                        <li>Assisted in automatic block signaling with continuous track circuiting, enhancing railway signal efficiency.</li>
+                        <li>Worked on Route Relay Interlocking (RRI) systems to improve railway signal safety and automation.</li>
+                        <li>Contributed to the development of central control panels for advanced signal control systems.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact-me">
+            <div class="contact-container">
+                <h2>Contact ME</h2>
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="email" id="email" placeholder="Email id">
+                </div>
+                <textarea id="message" placeholder="Message to convey"></textarea>
+                <button class="email-button" onclick="sendEmail()">Send Message</button>
+            </div>
+        </section>
+
+        <div class="social-sidebar">
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/keshav--s/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="https://github.com/keshav-rao" target="_blank" aria-label="Github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.instagram.com/_keshav_.rao/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="mailto:keshavrao887@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Keshav. All rights reserved.</p>
+        </footer>
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+
+        document.getElementById("toggleButton").addEventListener("click", function() {
+            document.body.classList.toggle("dark-mode");
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const typewriterText = document.getElementById('typewriter');
+            const text = typewriterText.textContent;
+
+            function type() {
+                typewriterText.textContent = '';
+                typewriterText.style.borderRight = '0.15em solid var(--text-color)';
+                let i = 0;
+
+                function typing() {
+                    if (i < text.length) {
+                        typewriterText.textContent += text.charAt(i);
+                        i++;
+                        setTimeout(typing, 100); // Adjust the speed of typing by changing the timeout value
+                    } else {
+                        // Remove the cursor after the typing animation is complete
+                        setTimeout(() => {
+                            typewriterText.style.borderRight = 'none';
+                        }, 500); // Brief delay to make sure the cursor is removed after typing finishes
+                    }
+                }
+
+                typing();
+            }
+
+            // Trigger the typewriter animation immediately and then repeat every 5 seconds
+            type();
+            setInterval(type, 5000);
+        });
+
+
+
+
+        window.addEventListener('scroll', function() {
+        var recentWork = document.querySelector('.recent-work');
+        if (window.scrollY > 100) { // adjust the value to your liking
+            recentWork.style.display = 'none';
+        } else {
+            recentWork.style.display = 'block';
+        }
+        });
+
+
+        var arrowIcons = document.querySelectorAll('.arrow-icon');
+        
+        arrowIcons.forEach(function(icon) {
+          icon.addEventListener('click', function() {
+            window.location.href = 'next-page.html'; // replace with the URL of the next page
+          });
+        });
+
+        function downloadCV() {
+            const link = document.createElement('a');
+            link.href = 'S Keshav_ Resume.pdf'; // Replace with the actual path to your resume file
+            link.download = 'S Keshav_ Resume.pdf'; // The filename for the downloaded file
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+
+        (function(){
+            emailjs.init("yGlGOepl0IEHbiKQG"); // Replace with your EmailJS public key
+        })();
+
+        window.sendEmail = function() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+
+            if (!name || !email || !message) {
+                alert("Please fill out all fields.");
+                return;
+            }
+
+            let templateParams = {
+                to_name: name,
+                reply_to: email,
+                user_message: message
+            };
+
+            console.log('Sending email with the following parameters:', templateParams);
+
+            emailjs.send("service_inh563i", "template_a5hin7h", templateParams)
+                .then(response => {
+                    console.log('Email sent successfully:', response);
+                    alert("Message sent successfully!");
+                }, error => {
+                    console.error('Failed to send email:', error);
+                    alert("Failed to send message. Try again later.");
+                });
+        };
+
+
+
+
+
+
+    </script>
+</body>
+</html>
+
